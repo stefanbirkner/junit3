@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: junit.tests.AllTests
+-------------------------------------------------------------------------------
+Tests run: 103, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.555 sec <<< FAILURE! - in junit.tests.AllTests
+testInvokeNonStaticSuite(junit.tests.runner.BaseTestRunnerTest)  Time elapsed: 0.01 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: java/lang/Object
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at junit.runner.TestCaseClassLoader.loadClass(TestCaseClassLoader.java:112)
+	at junit.runner.ReloadingTestSuiteLoader.load(ReloadingTestSuiteLoader.java:9)
+	at junit.runner.BaseTestRunner.loadSuiteClass(BaseTestRunner.java:208)
+	at junit.runner.BaseTestRunner.getTest(BaseTestRunner.java:101)
+	at junit.tests.runner.BaseTestRunnerTest.testInvokeNonStaticSuite(BaseTestRunnerTest.java:33)
+Caused by: java.lang.ClassNotFoundException: java.lang.Object
+	at junit.runner.TestCaseClassLoader.lookupClassData(TestCaseClassLoader.java:132)
+	at junit.runner.TestCaseClassLoader.loadClass(TestCaseClassLoader.java:109)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 34 more
+
+testClassLoading(junit.tests.runner.TestCaseClassLoaderTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: java/lang/Object
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2493)
+	at java.lang.Class.getConstructor0(Class.java:2803)
+	at java.lang.Class.newInstance(Class.java:345)
+	at junit.tests.runner.TestCaseClassLoaderTest.testClassLoading(TestCaseClassLoaderTest.java:18)
+Caused by: java.lang.ClassNotFoundException: java.lang.Object
+	at junit.runner.TestCaseClassLoader.lookupClassData(TestCaseClassLoader.java:132)
+	at junit.runner.TestCaseClassLoader.loadClass(TestCaseClassLoader.java:109)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 31 more
+

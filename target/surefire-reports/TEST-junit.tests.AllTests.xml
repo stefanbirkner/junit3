@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="junit.tests.AllTests" time="0.529" tests="103" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.51-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/stefan/workspaces/unittest/junit3"/>
+    <property name="java.runtime.version" value="1.7.0_51-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.11.0-15-generic"/>
+    <property name="user.home" value="/home/stefan"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="stefan"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-7-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="de"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_51"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testError" classname="junit.tests.framework.TestCaseTest" time="0.004"/>
+  <testcase name="testSetupFails" classname="junit.tests.framework.TestCaseTest" time="0.001"/>
+  <testcase name="testSuccess" classname="junit.tests.framework.TestCaseTest" time="0"/>
+  <testcase name="testFailure" classname="junit.tests.framework.TestCaseTest" time="0"/>
+  <testcase name="testTearDownAfterError" classname="junit.tests.framework.TestCaseTest" time="0"/>
+  <testcase name="testTearDownFails" classname="junit.tests.framework.TestCaseTest" time="0"/>
+  <testcase name="testTearDownSetupFails" classname="junit.tests.framework.TestCaseTest" time="0"/>
+  <testcase name="testWasRun" classname="junit.tests.framework.TestCaseTest" time="0"/>
+  <testcase name="testExceptionRunningAndTearDown" classname="junit.tests.framework.TestCaseTest" time="0"/>
+  <testcase name="testErrorTearingDownDoesntMaskErrorRunning" classname="junit.tests.framework.TestCaseTest" time="0"/>
+  <testcase name="testNoArgTestCasePasses" classname="junit.tests.framework.TestCaseTest" time="0.001"/>
+  <testcase name="testNamelessTestCase" classname="junit.tests.framework.TestCaseTest" time="0"/>
+  <testcase name="testCaseToString" classname="junit.tests.framework.TestCaseTest" time="0"/>
+  <testcase name="testRunAndTearDownFails" classname="junit.tests.framework.TestCaseTest" time="0"/>
+  <testcase name="testNoTestCaseClass" classname="junit.tests.framework.SuiteTest" time="0"/>
+  <testcase name="testNoTestCases" classname="junit.tests.framework.SuiteTest" time="0"/>
+  <testcase name="testOneTestCase" classname="junit.tests.framework.SuiteTest" time="0"/>
+  <testcase name="testNotPublicTestCase" classname="junit.tests.framework.SuiteTest" time="0"/>
+  <testcase name="testNotVoidTestCase" classname="junit.tests.framework.SuiteTest" time="0"/>
+  <testcase name="testNotExistingTestCase" classname="junit.tests.framework.SuiteTest" time="0"/>
+  <testcase name="testInheritedTests" classname="junit.tests.framework.SuiteTest" time="0.001"/>
+  <testcase name="testShadowedTests" classname="junit.tests.framework.SuiteTest" time="0"/>
+  <testcase name="testAddTestSuite" classname="junit.tests.framework.SuiteTest" time="0"/>
+  <testcase name="testCreateSuiteFromArray" classname="junit.tests.framework.SuiteTest" time="0"/>
+  <testcase name="testError" classname="junit.tests.framework.TestListenerTest" time="0"/>
+  <testcase name="testFailure" classname="junit.tests.framework.TestListenerTest" time="0"/>
+  <testcase name="testStartStop" classname="junit.tests.framework.TestListenerTest" time="0"/>
+  <testcase name="testAssertStringEquals" classname="junit.tests.framework.AssertTest" time="0.001"/>
+  <testcase name="testAssertNullNotEqualsString" classname="junit.tests.framework.AssertTest" time="0"/>
+  <testcase name="testAssertStringNotEqualsNull" classname="junit.tests.framework.AssertTest" time="0.001"/>
+  <testcase name="testAssertNullNotEqualsNull" classname="junit.tests.framework.AssertTest" time="0"/>
+  <testcase name="testAssertEquals" classname="junit.tests.framework.AssertTest" time="0.001"/>
+  <testcase name="testAssertEqualsNull" classname="junit.tests.framework.AssertTest" time="0"/>
+  <testcase name="testFail" classname="junit.tests.framework.AssertTest" time="0"/>
+  <testcase name="testAssertNull" classname="junit.tests.framework.AssertTest" time="0"/>
+  <testcase name="testAssertNotNull" classname="junit.tests.framework.AssertTest" time="0"/>
+  <testcase name="testAssertTrue" classname="junit.tests.framework.AssertTest" time="0"/>
+  <testcase name="testAssertFalse" classname="junit.tests.framework.AssertTest" time="0"/>
+  <testcase name="testAssertSame" classname="junit.tests.framework.AssertTest" time="0.001"/>
+  <testcase name="testAssertNotSame" classname="junit.tests.framework.AssertTest" time="0"/>
+  <testcase name="testAssertNotSameFailsNull" classname="junit.tests.framework.AssertTest" time="0"/>
+  <testcase name="testSuccessfulRun" classname="junit.tests.framework.TestImplementorTest" time="0"/>
+  <testcase name="testNothing" classname="junit.tests.framework.NoArgTestCaseTest" time="0"/>
+  <testcase name="testStartSame" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testEndSame" classname="junit.tests.framework.ComparisonCompactorTest" time="0.001"/>
+  <testcase name="testSame" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testNoContextStartAndEndSame" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testBug609972" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testStartAndEndContext" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testStartAndEndContextWithEllipses" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testComparisonErrorStartSameComplete" classname="junit.tests.framework.ComparisonCompactorTest" time="0.001"/>
+  <testcase name="testMessage" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testComparisonErrorEndSameComplete" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testComparisonErrorEndSameCompleteContext" classname="junit.tests.framework.ComparisonCompactorTest" time="0.001"/>
+  <testcase name="testComparisonErrorOverlapingMatches" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testComparisonErrorOverlapingMatchesContext" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testComparisonErrorOverlapingMatches2" classname="junit.tests.framework.ComparisonCompactorTest" time="0.001"/>
+  <testcase name="testComparisonErrorOverlapingMatches2Context" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testComparisonErrorWithActualNull" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testComparisonErrorWithActualNullContext" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testComparisonErrorWithExpectedNull" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testComparisonErrorWithExpectedNullContext" classname="junit.tests.framework.ComparisonCompactorTest" time="0"/>
+  <testcase name="testThrowing" classname="junit.tests.framework.ComparisonFailureTest" time="0.001"/>
+  <testcase name="testConnection" classname="junit.tests.framework.ComparisonFailureTest" time="0"/>
+  <testcase name="testAssertPosInfinityNotEqualsNegInfinity" classname="junit.tests.framework.DoublePrecisionAssertTest" time="0"/>
+  <testcase name="testAssertEqualsNaNFails" classname="junit.tests.framework.DoublePrecisionAssertTest" time="0.001"/>
+  <testcase name="testAssertNaNEqualsFails" classname="junit.tests.framework.DoublePrecisionAssertTest" time="0"/>
+  <testcase name="testAssertNaNEqualsNaN" classname="junit.tests.framework.DoublePrecisionAssertTest" time="0"/>
+  <testcase name="testAssertPosInfinityNotEquals" classname="junit.tests.framework.DoublePrecisionAssertTest" time="0"/>
+  <testcase name="testAssertPosInfinityEqualsInfinity" classname="junit.tests.framework.DoublePrecisionAssertTest" time="0"/>
+  <testcase name="testAssertNegInfinityEqualsInfinity" classname="junit.tests.framework.DoublePrecisionAssertTest" time="0"/>
+  <testcase name="testFilter" classname="junit.tests.runner.StackFilterTest" time="0"/>
+  <testcase name="testSort" classname="junit.tests.runner.SorterTest" time="0.001"/>
+  <testcase name="testMissingDirectory" classname="junit.tests.runner.SimpleTestCollectorTest" time="0.001"/>
+  <testcase name="testInvokeNonStaticSuite" classname="junit.tests.runner.BaseTestRunnerTest" time="0.01">
+    <error message="java/lang/Object" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: java/lang/Object
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at junit.runner.TestCaseClassLoader.loadClass(TestCaseClassLoader.java:112)
+	at junit.runner.ReloadingTestSuiteLoader.load(ReloadingTestSuiteLoader.java:9)
+	at junit.runner.BaseTestRunner.loadSuiteClass(BaseTestRunner.java:208)
+	at junit.runner.BaseTestRunner.getTest(BaseTestRunner.java:101)
+	at junit.tests.runner.BaseTestRunnerTest.testInvokeNonStaticSuite(BaseTestRunnerTest.java:33)
+Caused by: java.lang.ClassNotFoundException: java.lang.Object
+	at junit.runner.TestCaseClassLoader.lookupClassData(TestCaseClassLoader.java:132)
+	at junit.runner.TestCaseClassLoader.loadClass(TestCaseClassLoader.java:109)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 34 more
+</error>
+  </testcase>
+  <testcase name="testError" classname="junit.tests.runner.TextFeedbackTest" time="0"/>
+  <testcase name="testOneTest" classname="junit.tests.runner.TextFeedbackTest" time="0.001"/>
+  <testcase name="testFailure" classname="junit.tests.runner.TextFeedbackTest" time="0.001"/>
+  <testcase name="testTwoTests" classname="junit.tests.runner.TextFeedbackTest" time="0.001"/>
+  <testcase name="testEmptySuite" classname="junit.tests.runner.TextFeedbackTest" time="0"/>
+  <testcase name="testError" classname="junit.tests.runner.TextRunnerTest" time="0.073"/>
+  <testcase name="testSuccess" classname="junit.tests.runner.TextRunnerTest" time="0.103"/>
+  <testcase name="testFailure" classname="junit.tests.runner.TextRunnerTest" time="0.097"/>
+  <testcase name="testRunReturnsResult" classname="junit.tests.runner.TextRunnerTest" time="0.018"/>
+  <testcase name="testClassLoading" classname="junit.tests.runner.TestCaseClassLoaderTest" time="0.002">
+    <error message="java/lang/Object" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: java/lang/Object
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2493)
+	at java.lang.Class.getConstructor0(Class.java:2803)
+	at java.lang.Class.newInstance(Class.java:345)
+	at junit.tests.runner.TestCaseClassLoaderTest.testClassLoading(TestCaseClassLoaderTest.java:18)
+Caused by: java.lang.ClassNotFoundException: java.lang.Object
+	at junit.runner.TestCaseClassLoader.lookupClassData(TestCaseClassLoader.java:132)
+	at junit.runner.TestCaseClassLoader.loadClass(TestCaseClassLoader.java:109)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 31 more
+</error>
+  </testcase>
+  <testcase name="testJarClassLoading" classname="junit.tests.runner.TestCaseClassLoaderTest" time="0"/>
+  <testcase name="testRunningErrorsInTestSetup" classname="junit.tests.extensions.ExtensionTest" time="0.001"/>
+  <testcase name="testSetupErrorDontTearDown" classname="junit.tests.extensions.ExtensionTest" time="0"/>
+  <testcase name="testSetupErrorInTestSetup" classname="junit.tests.extensions.ExtensionTest" time="0"/>
+  <testcase name="testRunningErrorInTestSetup" classname="junit.tests.extensions.ExtensionTest" time="0"/>
+  <testcase name="testFailure" classname="junit.tests.extensions.ExceptionTestCaseTest" time="0"/>
+  <testcase name="testExceptionTest" classname="junit.tests.extensions.ExceptionTestCaseTest" time="0"/>
+  <testcase name="testNoException" classname="junit.tests.extensions.ExceptionTestCaseTest" time="0"/>
+  <testcase name="testWrongException" classname="junit.tests.extensions.ExceptionTestCaseTest" time="0"/>
+  <testcase name="testExceptionSubclass" classname="junit.tests.extensions.ExceptionTestCaseTest" time="0"/>
+  <testcase name="testActiveTest" classname="junit.tests.extensions.ActiveTestTest" time="0.028"/>
+  <testcase name="testActiveRepeatedTest" classname="junit.tests.extensions.ActiveTestTest" time="0.145"/>
+  <testcase name="testActiveRepeatedTest0" classname="junit.tests.extensions.ActiveTestTest" time="0.001"/>
+  <testcase name="testActiveRepeatedTest1" classname="junit.tests.extensions.ActiveTestTest" time="0.028"/>
+  <testcase name="testRepeatedOnce" classname="junit.tests.extensions.RepeatedTestTest" time="0.001"/>
+  <testcase name="testRepeatedMoreThanOnce" classname="junit.tests.extensions.RepeatedTestTest" time="0"/>
+  <testcase name="testRepeatedZero" classname="junit.tests.extensions.RepeatedTestTest" time="0"/>
+  <testcase name="testRepeatedNegative" classname="junit.tests.extensions.RepeatedTestTest" time="0"/>
+</testsuite>
